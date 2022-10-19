@@ -25,7 +25,7 @@ const BlogItem = props => {
                 }>{striptags(content)}</Truncate>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default BlogItem;

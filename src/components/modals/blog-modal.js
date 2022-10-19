@@ -11,11 +11,11 @@ export default class BlogModal extends Component {
 
         this.customStyles = {
             content: {
-                top: "25%",
-                left: "25%",
+                top: "50%",
+                left: "50%",
                 right: "auto",
                 marginRight: "-50%",
-                transfrom: "translate(-50%, -50%)",
+                transform: "translate(-50%, -50%)",
                 width: "800px"
             },
 
@@ -28,7 +28,7 @@ export default class BlogModal extends Component {
     }
 
     handleSuccessfullFormSubmission(blog) {
-        this.props.handleSuccessfullNewBlogSubmission(blog);
+        this.props.handleSuccessfulNewBlogSubmission(blog);
     }
 
     render() {
